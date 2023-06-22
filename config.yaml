@@ -59,7 +59,8 @@ contact: 'team@carpentries.org'
 
 # Order of episodes in your lesson
 episodes: 
-- 01-run-quit.md
+#- 01-run-quit.md
+- 01-run-quit-spyder.md
 - 02-variables.md
 - 03-types-conversion.md
 - 04-built-in.md
