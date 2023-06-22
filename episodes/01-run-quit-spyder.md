@@ -25,6 +25,7 @@ Many software developers will often use an integrated development environment (I
 [Spyder] (Scientific Python Development Environment) is a free IDE written in Python that comes with Anaconda. Editing, interactive testing, debugging, and introspection tools are all included in Spyder. 
 
 This has several advantages:
+
 -You will become familiar with using an IDE.
 -Tab complete allows you to easily access the names of things you are using and learn more about them.
 -You will be able to run your code as you create it and see results within the one interface.
@@ -82,7 +83,9 @@ $ spyder
 
 ##  Anaconda Navigator
 
-To start a Spyder IDE from Anaconda Navigator you must first [start Anaconda Navigator (click for detailed instructions on macOS, Windows, and Linux)](https://docs.anaconda.com/anaconda/navigator/getting-started/#starting-navigator). You can search for Anaconda Navigator via Spotlight on macOS (<kbd>Command</kbd> + <kbd>spacebar</kbd>), the Windows search function (<kbd>Windows Logo Key</kbd>) or opening a terminal shell and executing the `anaconda-navigator` executable from the command line.
+To start a Spyder IDE from Anaconda Navigator you must first [start Anaconda Navigator (click for detailed instructions on macOS, Windows, and Linux)]. 
+
+You can search for Anaconda Navigator via Spotlight on macOS (<kbd>Command</kbd> + <kbd>spacebar</kbd>), the Windows search function (<kbd>Windows Logo Key</kbd>) or opening a terminal shell and executing the `anaconda-navigator` executable from the command line.
 
 After you have launched Anaconda Navigator, click the `Launch` button under Spyder. You may need to scroll down to find it.
 
@@ -168,10 +171,10 @@ If we were generating output files we would create a folder for them and the sam
 - Scripts written in Spyder can be run from the command line.
 - We won't cover running scripts from the command line now but do get in contact with your local eResearch Analyst to find out how.
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <!-- Collect your link references at the bottom of your document -->
 [Spyder]: https://www.spyder-ide.org
 [Spyder Tutorials]: https://youtu.be/E2Dap5SfXkI
 [spyder docs]: https://docs.spyder-ide.org/current/index.html
+[start Anaconda Navigator (click for detailed instructions on macOS, Windows, and Linux)]: https://docs.anaconda.com/anaconda/navigator/getting-started/#starting-navigator
