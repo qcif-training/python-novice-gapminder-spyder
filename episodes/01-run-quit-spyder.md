@@ -26,9 +26,9 @@ Many software developers will often use an integrated development environment (I
 
 This has several advantages:
 
--You will become familiar with using an IDE.
--Tab complete allows you to easily access the names of things you are using and learn more about them.
--You will be able to run your code as you create it and see results within the one interface.
+- You will become familiar with using an IDE.
+- Tab complete allows you to easily access the names of things you are using and learn more about them.
+- You will be able to run your code as you create it and see results within the one interface.
 - You will be able to easily run you scripts from the command line after you have finished writing them.
 
 Each file can contain one or more cells that contain code and comments (documentation).
@@ -46,16 +46,16 @@ If you are new to Spyder, we highly recommend watching this set of informative v
 ## Getting Started with Spyder
 
 Spyder is included as part of the Anaconda Python distribution. If you have not already
-installed the Anaconda Python distribution, see [the setup instructions]({{ page.root }}{% link
-setup.md %})
-for installation instructions.
+installed the Anaconda Python distribution, see [setup page](../learners/setup.md) for installation instructions.
 
 ## Starting Spyder
 
 You can start the Spyder IDE through the command line or through an application called 
-`Anaconda Navigator`. Anaconda Navigator is included as part of the Anaconda Python distribution.
+(<kbd>Anaconda Navigator</kbd>). Anaconda Navigator is included as part of the Anaconda Python distribution.
 
-### macOS - Command Line
+### Through the Command Line
+
+#### macOS - Command Line
 To start Spyder IDE you will need to access the command line through the Terminal. 
 There are two ways to open Terminal on Mac.
 
@@ -70,7 +70,7 @@ After you have launched Terminal, type the command to launch the Spyder IDE.
 $ spyder
 ```
 
-### Windows Users - Command Line
+#### Windows Users - Command Line
 To start the Spyder IDE you will need to access the Anaconda Prompt.
 
 Press <kbd>Windows Logo Key</kbd> and search for `Anaconda Prompt`, click the result or press enter.
@@ -81,7 +81,7 @@ After you have launched the Anaconda Prompt, type the command:
 $ spyder
 ```
 
-##  Anaconda Navigator
+## Through Anaconda Navigator
 
 To start a Spyder IDE from Anaconda Navigator you must first [start Anaconda Navigator (click for detailed instructions on macOS, Windows, and Linux)]. 
 
@@ -101,7 +101,8 @@ You will see a menu bar, a toolbar and 3 panes when you first open Spyder. Worki
 - Help, Variable Explorer, Plots, Files
 - the IPython Console
 
-![](fig/0_spyder_ide_layout.png"){alt="Spyder IDE default layout"}
+
+![](fig/0_spyder_ide_layout.png){alt="Spyder IDE default layout"}
 
 The menu on Macs is the same with the usual macOS variations, e.g., `Preferences` can be found under the *Code* menu item rather than under the *Tools* menu item as in Windows.
 
@@ -141,7 +142,7 @@ More information on the Spyder IDE can be found at [spyder docs].
 
 You may have noticed when you first launched Spyder that the top left panel opened up to a "temp.py" that has a header filled with, among other info, "This is a temporary script file."
 
-You can change the information that is presented here by modifying that "temp.py". To find out where that file is, look just below the toolbar and you should find the file path, e.g., "C:\Users\jcu_id\.spyder-py3\temp.py". 
+You can change the information that is presented here by modifying that "temp.py". To find out where that file is, look just below the toolbar and you should find the file path, e.g., "C:\\Users\\jcu_id\\.spyder-py3\\temp.py". 
 
 To create a new python script, there are several options:
 
@@ -154,14 +155,13 @@ To create a new python script, there are several options:
 Before you run your program in Spyder, it is essential to know your working directory. You can find this by looking at the path next to the folder icon in the top right toolbar. To select a different working directory you can click on the folder icon and browse the folder structure.
 
 Change the current working directory to where you want to create your workshop files.
-Right-click inside the Files pane, create a data folder and copy the data files for these workshops into there.
+Right-click inside the Files pane, create a **data** folder and copy the data files for these workshops into there.
 
-Create another folder called scripts in which to store your scripts.
+Create another folder called **scripts** in which to store your scripts.
 
 If we were generating output files we would create a folder for them and the same for documentation.
 
 ### The benefits of relative paths
-
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
@@ -177,4 +177,4 @@ If we were generating output files we would create a folder for them and the sam
 [Spyder]: https://www.spyder-ide.org
 [Spyder Tutorials]: https://youtu.be/E2Dap5SfXkI
 [spyder docs]: https://docs.spyder-ide.org/current/index.html
-[start Anaconda Navigator (click for detailed instructions on macOS, Windows, and Linux)]: https://docs.anaconda.com/anaconda/navigator/getting-started/#starting-navigator
+[start Anaconda Navigator (click for detailed instructions on macOS, Windows, and Linux)]: https://docs.anaconda.com/free/navigator/getting-started/
