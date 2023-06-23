@@ -51,7 +51,7 @@ installed the Anaconda Python distribution, see [setup page](../learners/setup.m
 ## Starting Spyder
 
 You can start the Spyder IDE through the command line or through an application called 
-(<kbd>Anaconda Navigator</kbd>). Anaconda Navigator is included as part of the Anaconda Python distribution.
+`Anaconda Navigator`. Anaconda Navigator is included as part of the Anaconda Python distribution.
 
 ### Through the Command Line
 
@@ -161,13 +161,86 @@ Create another folder called **scripts** in which to store your scripts.
 
 If we were generating output files we would create a folder for them and the same for documentation.
 
-### The benefits of relative paths
+## Running Programs in Spyder
+
+After checking your working directory, we can run programs in Spyder in two ways: line by line or the entire code at the same time.
+- Type F5 to run the entire program.
+- Type Ctrl + Enter (in Windows) or Control + Enter (In Mac) to run code one line at a time.
+
+## Sample Code Examples
+
+### Assign values to variables, print the variable and get the type
+
+```python
+text = “Getting started with Spyder” # string
+print(text)
+type(text)
+```
+
+
+```output
+“Getting started with Spyder”
+<class ‘str’>
+```
+
+
+```python
+number = 75 # integer
+print(number)
+type(number)
+```
+
+```output
+75
+<class ‘int’>
+```
+
+
+```python
+prob = 0.975 # float
+print(prob)
+type(prob)
+```
+
+
+```output
+0.975
+<class ‘float’>
+```
+
+#### Using Spyder as a calculator
+
+```python
+3 + 2 # Addition
+5 * 6 # Multiplication
+2 ** 3 # Power
+```
+
+```output
+5
+30
+8
+```
+
+
+### Comparison and logic operators
+
+```python
+5 > 4 # Greater than
+3 == 3  # Equal to
+7 != 6  # Not Equal to
+```
+
+```output
+False
+True
+True
+```
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- Python scripts are plain text files, that usually end in '.py'.
 - Use the Spyder IDE for editing and running Python.
-- Use the keyboard and mouse to select and edit cells.
+- Python scripts are plain text files, that usually end in '.py'.
 - Scripts written in Spyder can be run from the command line.
 - We won't cover running scripts from the command line now but do get in contact with your local eResearch Analyst to find out how.
 
