@@ -163,79 +163,17 @@ If we were generating output files we would create a folder for them and the sam
 
 ## Running Programs in Spyder
 
-After checking your working directory, we can run programs in Spyder in two ways: line by line or the entire code at the same time.
-- Type F5 to run the entire program.
-- Type Ctrl + Enter (in Windows) or Control + Enter (In Mac) to run code one line at a time.
+After checking your working directory, we can run program in Spyder in a couple of ways: line by line or the entire code  
 
-## Sample Code Examples
+- Windows
 
-### Assign values to variables, print the variable and get the type
+    - Type F5 to run the entire program
+    - Type F9 to run selection or current line
+<p></p>
+- MacOS
 
-```python
-text = “Getting started with Spyder” # string
-print(text)
-type(text)
-```
+    - TODO
 
-
-```output
-“Getting started with Spyder”
-<class ‘str’>
-```
-
-
-```python
-number = 75 # integer
-print(number)
-type(number)
-```
-
-```output
-75
-<class ‘int’>
-```
-
-
-```python
-prob = 0.975 # float
-print(prob)
-type(prob)
-```
-
-
-```output
-0.975
-<class ‘float’>
-```
-
-#### Using Spyder as a calculator
-
-```python
-3 + 2 # Addition
-5 * 6 # Multiplication
-2 ** 3 # Power
-```
-
-```output
-5
-30
-8
-```
-
-
-### Comparison and logic operators
-
-```python
-5 > 4 # Greater than
-3 == 3  # Equal to
-7 != 6  # Not Equal to
-```
-
-```output
-False
-True
-True
-```
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
