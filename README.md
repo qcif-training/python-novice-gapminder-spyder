@@ -27,4 +27,4 @@ Maintainer(s):
 # python-novice-gapminder-spyder
 ### Modified materials 21/08/23
 
-We replaced episodes/01-run-quit.md with episodes/01-run-quit-spyder.md in order to use the Spyder IDE instead of Jupyter notebook. The rest of the repository remains unchanged for now and there may still be references to Jupyer throughout. 
+We replaced episodes/01-run-quit.md with episodes/01-run-quit-spyder.md in order to use the Spyder IDE instead of Jupyter notebook. The rest of the repository remains unchanged for now and there may still be references to Jupyter throughout. 
