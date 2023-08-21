@@ -96,6 +96,6 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: 'https://swcarpentry.github.io/python-novice-gapminder'
+url: 'https://qcif-training.github.io/python-novice-gapminder'
 analytics: carpentries
 lang: en
