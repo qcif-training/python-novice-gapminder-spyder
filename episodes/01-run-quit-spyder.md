@@ -164,6 +164,7 @@ If we were generating output files we would create a folder for them and the sam
 ## Running Programs in Spyder
 
 After checking your working directory, we can run programs in Spyder in two ways: line by line or the entire code at the same time.
+
 - Type F5 to run the entire program.
 - Type Ctrl + Enter (in Windows) or Control + Enter (In Mac) to run code one line at a time.
 
